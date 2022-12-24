@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2874f0;
+    width: 100%;
+    height: 56px;
+}
+
+.header-left{
+    width: 20%;
+    text-align: right;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.header-left a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.header-left-p a{
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.header-left-p span{
+    color: yellow;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.header-center{
+    width: 40%;
+    text-align: left;
+    line-height: 50px;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+
+.header-center-input{
+    height: 36px;
+    width: 100%;
+    border: none;
+}
+.header-right{
+    width: 40%;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.header-right a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0px 25px;
+}
+
+.header-right .active{
+    background-color: white;
+    color: #2874f0;
+    padding: 5px 30px;
+    height: 35px;
+    width: 130px;
+    line-height: 23px;
+    margin-top: 8px;
+    border-radius: 2px;
+    text-align: center;
+}
+.fa-shopping-cart{
+    padding-right: 10px;
+}
+
+.category-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.category-col{
+    padding: 10px 0px;
+    cursor: pointer;
+    color: black;
+}
+.category-col img{
+    width: 250px;
+    height: 250px;
+}
+
+.category-col h5:hover{
+    color: #2874f0;
+}
+
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.category-col img:hover{
+    transform: scale(0.9);
+}
+
+.slider{
+    display: flex;
+    width: 4047px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 15s;
+}
+
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: -4047px;
+    }
+}
+.slider img{
+    width: 100%;
+}
+
+
+
+.card{
+    box-shadow: white;
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.common-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px px;
+    margin-top: 20px;
+    box-shadow: 0 1px 1px 0rgb(0 0 0 /16%);
+}
+
+.common-heading-left h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+
+.common-heading-left h2{
+    font-size: 15px;
+    padding: 5px 0px;
+    color: white;
+    font-weight: 200;
+}
+
+.common-heading-right button{
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #2874f0;
+    border: none;
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+.common-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 366px;
+    margin: 10px opx;
+}
+.common-col{
+    text-align: center;
+    line-height: 22px;
+}
+.common-col img:hover{
+    transform: scale(0.9);
+}
+
+footer{
+    background-color: rgb(213, 202, 202);
+    height: 332;
+}
+.footer-row{
+    width: 100%;
+    height: 250%;
+    display: flex;
+    padding: 30px 60px;
+}
+.footer-row2{
+    display: flex;
+    border-top: 1px solid rgb(4, 25, 216);
+    justify-content: space-evenly;
+}
+.footer-col-1{
+    width: 15%;
+}
+.footer-col-2{
+    width: 15%;
+}
+
+.footer-col-3{
+    width: 15%;
+}
+
+.footer-col-4{
+    width: 15%;
+}
+
+
+.footer-heading p{
+  color: #2c0bc0;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px 0px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.footer-list a{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(14, 14, 14);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
+.footer-row2 {
+    font-style: italic;
+}
+
+
